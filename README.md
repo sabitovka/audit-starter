@@ -4,15 +4,15 @@
 
 **Audit Starter** - is a library for auditing user actions. Saves actions to the database
 
-## Как использовать
+## How to use
 The project is not yet available in Maven Central, so it requires manual installation.
 
-### Требования
+### Requirements
 Make sure that you have the following components installed:
 - Oracle Java 17
 - Apache Maven 3.9.8
 
-### Установка
+### Installation
 
 1. Clone the repository and go to the project folder
    ```shell
@@ -31,7 +31,7 @@ Make sure that you have the following components installed:
    </dependency>
    ```
 
-### Использование
+### Usage
 Enable auditing using the `@EnableAudit` annotation
 
 ```java
@@ -115,7 +115,7 @@ public class AuthorizationServiceImpl implements AuthorizationService {
 }
 ```
 
-## Вклад
+## Contribution
 Contributions are what make the open source developer community a wonderful place to learn,
 inspire, and create. **I will highly appreciate any of your contributions**.
 
@@ -127,5 +127,5 @@ If you have suggestions for improving the system, make a Fork and create a Merge
 4. Record the changes (git push origin feature/your-feature)
 5. Create a merge request
 
-## Лицензия
+## License
 Distributed under the MIT license. For more information, see the file [LICENSE](LICENSE).
